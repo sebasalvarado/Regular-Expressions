@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Dr Flights</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">SIGN IN</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_info">Edit Info </string>
+    <string name="title_activity_admin_info">Administrator Information</string>
+    <string name="title_activity_admin_name">Welcome</string>
+
+
+    <string name="button_view_itineraries">View Itineraries</string>
+    <string name="button_search_flights">Search Flights</string>
+    <string name="client_activity_title">Client Information</string>
+    <string name="title_activity_itinerary">Booked Itineraries</string>
+    <string name="title_activity_search">Flight Search</string>
+    <string name="register_button">Register Here</string>
+    <string name="title_activity_register">Register</string>
+    <string name="destination">Destination</string>
+    <string name="Origin">Origin</string>
+    <string name="Date">Please pick a date in the form YYYY-MM-DD</string>
+    <string name="button_Search_itinerary">Itineraries</string>
+    <string name="title_activity_display_itineraries">Display Itineraries</string>
+    <string name="title_activity_display_flights">Display Flights</string>
+    <string name="button_upload_flights">Upload Flights</string>
+    <string name="button_upload_client">Upload Clients</string>
+    <string name="booked_itineraries_button">Booked itineraries</string>
+    <string name="title_activity_admin_buttons">AdminButtonsActivity</string>
+
+    <string name="search_flight"> edit flights</string>
+    <string name="button_search_itineraries">itineraries</string>
+    <string name="button_view_client_info">view client info</string>
+    <string name="button_edit_client_info">edit client</string>
+    <string name="button_edit_flight_info">edit flight</string>
+    <string name="button_client_page">edit client</string>
+    <string name="file_name">File Name</string>
+    <string name="edit_password">Edit Password</string>
+
+    <string name="hello_flight_fragment">flights</string>
+    <string name="personal_info"> Personal info </string>
+    <string name="admin_bar"> Welcome to our App </string>
+    <string name="save">Save</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_edit_client_info">EditClientInfoActivity</string>
+    <string name="title_activity_edit_flight_info">EditFlightInfoActivity</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="Address">Address</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="Expiry_date">Expiry Date in Format YYYY-MM-DD</string>
+    <string name="client_email">Client Email</string>
+
+    <string name="flight_num">Flight Number</string>
+    <string name="origin_hint">Origin</string>
+    <string name="destination_hint">Destination</string>
+    <string name="available_seats">Available Seats</string>
+    <string name="price">Price to Two Decimal Places</string>
+    <string name="airline">Airline</string>
+    <string name="arrival_date">Enter the arrival date and time in format YYYY-MM-DD HH:MM</string>
+    <string name="departure_date">Enter the departure date and time in format YYYY-MM-DD HH:MM</string>
+
+
+    <string name="date_hint">Date</string>
+    <string name="sort_by_time">Sort by Time</string>
+    <string name="sort_by_cost">Sort by Cost</string>
+
+    <string name="edit_client_info_homepage">Edit personal information</string>
+    <string name="change_password">Change Password</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="enter_old_password">Enter old password here</string>
+    <string name="enter_new_password">Enter new password here</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="edit_flight_info_homepage">Edit flight information</string>
+
+    <string name="client_log_out" > log out</string>
+
+
+</resources>
+

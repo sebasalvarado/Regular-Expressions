@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".admin.AdminInfoActivity">
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+    <include layout="@layout/content_admin_info"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end" />
+
+
+
+    <TextView
+        android:id="@+id/admin_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="75sp"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+
+        android:text="@string/admin_bar"/>
+
+
+    <TextView
+        android:id="@+id/admin_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="15dp"
+        android:text="@string/title_activity_admin_name"
+        android:textStyle="bold"
+        android:textColor="#064012"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/bupdateFlights"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:padding="15dp"
+        android:text="@string/button_upload_flights"
+        android:onClick="onClick"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/bupdateClient"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:padding="15dp"
+        android:text="@string/button_upload_client"
+        android:onClick="onClick"
+        android:textColor="#000"/>
+
+
+    <Button
+        android:id="@+id/edit_flight_info"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:padding="15dp"
+        android:onClick="onClick"
+        android:text="@string/button_edit_flight_info"
+        android:textColor="#000"
+         />
+
+
+    <Button
+        android:id="@+id/search_itineraries"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:padding="15dp"
+        android:text="@string/button_Search_itinerary"
+        android:onClick="onClick"
+        android:textColor="#000"/>
+
+
+
+    <Button
+        android:id="@+id/edit_client_info"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:padding="15dp"
+        android:text="@string/button_edit_client_info"
+        android:onClick="goClientPage"
+        android:textColor="#000"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15sp"
+            android:layout_marginTop="180sp"
+            android:hint="@string/file_name"/>
+
+        <EditText
+            android:layout_width="260sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload_flight_text"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15sp"
+            android:hint="@string/file_name"/>
+
+
+
+        <EditText
+            android:layout_width="260sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload_client_text"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15sp"
+            android:hint="@string/client_email"/>
+
+
+
+        <EditText
+            android:layout_width="260sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/client_email"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="15sp"
+            android:hint="@string/flight_num"/>
+
+
+
+        <EditText
+            android:layout_width="260sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/flight_num"/>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,169 @@
+Status Meeting Dec 3rd/2015
+State of the project:
+   - Done: All the requirements are complete with the exception of Edit Flight and 		   Booking Itineraries and Displaying them.
+   - Almost done: As for the last task the four members of the team would be working         		   on completing the necessary requirement and uploading them as the 		   final copy of the application. Along side with creating the 			   corresponding files that complete the project.
+
+Status Meeting Dec 2nd/15
+  Jose:
+   - completed the search activity minus some edits with Jacob and Sebastian
+   - completed some fixes and updates to the Admin Activity, Login Activity,
+     and database in order to make searching for itineraries work better
+   - will complete displaying the sorted and unsorted itineraries alongside
+     Jacob
+
+  Sebastian:
+   - completed the FileManager that is the parent of all other managers
+   - completed the search activity minus some edits with Jose and Jacob
+   - completed all modifications for the managers needed (except maybe for
+     the edits we're about to implement)
+   - completed implementing the creation of passwords for newly registered
+     clients as well as clients uploaded in bulk by the admin
+   - completed fixing a couple bugs in password reading and writing
+   - completed fixing bugs for changing passwords with Adam
+   - will complete some of the edit implementations (client or flight)
+
+  Jacob:
+   - completed the search activity minus some edits with Jose and Sebastian
+   - proposed and implemented some alternatives to help solve the displaying
+     itineraries problem (may not be committed)
+   - completed initial display itineraries functionality that has yet to be
+     tested due to an unrelated bug
+   - will complete displaying the sorted and unsorted itineraries alongside
+     Jose
+
+  Adam:
+   - completed the initial logging in using the password manager
+   - completed the edit password function with an android code portion fix-up by
+     Sebastian
+   - completed setting up the itineraary manager and the method it will save
+     to the file with. We are not yet getting itineraries to save, leaving this
+     untested
+   - assisted with the fixing of password creation
+   - will complete some of the edit implementations (client or flight)
+-------------------------------------------------------------
+Status Meeting Dec 1st/15
+  Jose:
+   - Has been working on displaying our itineraries. Fragments are in use and
+     thus the delay
+   - Has done a large chunk of the front end design (.xml files) and done most
+     of the SearchActivity
+   - Will complete display itineraries and the fragment for it
+
+Sebastian:
+   - Completed the Client and Flight Managers that enable the saving of our data
+     and the loading of extra files through admin into our database and main
+     files
+   - Completed AdminInfoActivity (for the most part, minus edits)
+   - Has spent a lot of time debugging over the course of the project to check
+     our file work and database usage
+   - Will complete the edit functionality of flights through admins
+
+Jacob:
+   - Completed the sorting itineraries activities
+   - Wrote the method for booking activities that will soon be finalized with
+     our itinerary manager
+   - Modified itineraries to be serializable in order for them to easily work
+     with the rest of our code
+   - Will complete display itineraries alongside Jose to speed up the fragment
+     implementation
+
+Adam:
+   - Completed the itinerary manager
+   - Made formatting modifications to a couple of our files
+   - Completed the new implementation of RegisterActivity to work with our new
+     managers, allowing the proper creating and saving of new clients
+   - Will complete the edit functionality og clients through admins and modify
+     RegisterActivity to edit passwords.txt for new clients (chosen) and same
+     for uploading new clients with a file in admins (dummy passwords)
+-------------------------------------------------------
+State of the project as of planning meeting two:
+ - done: Log-in activity, the activities that the client interacts with (minus
+         other things we may yet add), and most of the bsck-end integration.
+ - implemented: Implemented nearly all of our back-end code and modified some of
+                the back-end code to help us complete tasks more effectively.
+ - almost done: admin implementation both in front end and responsibilities,
+                our search view based on the flight criteria.
+
+Tasks for the week of planning meeting two:
+ - complete all front end layouts (whole group with varied activities)
+ - complete updating our csv files with writes (Sebastion and Adam)
+ - complete sorting and displaying itineraries (Jose)
+ - complete discussion and implementation of saving booked itineraries (whole
+   group)
+
+Jose:
+  - restructured the layout of register
+  - completed front end of the search related activities
+  - completed closing the loop on some of our front end issues in various 
+    activities
+  - will complete all views relating to itineraries
+
+Sebastian:
+  - completed log-in activity using fragments to make things easier
+  - completed the fragment that makes it simpler to pass information between
+    activities such as the client view activity
+  - will complete the second half of the admin responsibilities based on admin
+    layout
+  - will work on saving to text files for edit responsibilities
+
+Jacob:
+  - completed admin front end
+  - connected admin activity to the backend
+  - will complete layouts for itineraries with Jose
+
+Adam:
+  - completed first half of admin responsibilities based on admin layout
+  - will work on saving to text files for the other responsibilites and work
+    with Sebastian to complete the writes
+
+---------------------------------------------------------------
+Status Meeting Nov 27th /15
+  Jose:
+     Completed the required front end before the TA meeting.
+     Will connect search method from backend to front end.
+
+ Sebastian:
+     Completing connection of onCreate method to the backend.
+  
+ Jacob: 
+      Implemented code for connecting backend login to the front end.
+      Will connect admin Activity to the backend.
+ Adam:
+    Connected the register Activity to the backend.
+    Will create an activity for displaying itineraries.
+---------------------------------------------------------------
+State of the project as of planning meeting one:
+ - done: The backend and some of the front end (log-in activity)
+ - implemented: Nothing from the backend yet
+ - almost done: login activity, register activity
+ note: things under almost done may not be committed quite yet
+
+Tasks for the week of planning meeting one:
+ - complete front end from login to clientView (Jose)
+ - complete passwords.txt and credential check (Jacob)
+ - complete the onCreate for our login activity where all our text files are
+   loaded into database (Sebastian)
+ - complete register client in the backend (Adam)
+
+Jose:
+  - completed a model for our front end
+  - will complete front end as far as we intend to complete before our TA
+    meeting (up till clientView)
+
+Sebastian:
+  - will connect the front end onCreate to the backend in order to load data
+    into our application
+
+Jacob:
+  - will complete passwords.txt in the format discussed (title,email,password)
+  - will connect front end login to backend where we check credentials, thus 
+    giving the client their information
+
+Adam:
+  - will connect the front end register client to the back end, which includes
+    saving the new client's information in an append style to existing text
+    files
+  - problem: may not be able to run emulator on home laptop. Will do more
+             research on the problem.
+————————————————————————————————————————————————————————————————
+

@@ -1,0 +1,48 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="10dp"
+android:orientation="vertical"
+android:id="@+id/container"
+    android:background="@drawable/patterns"
+    >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/log_out"
+        android:text="@string/client_log_out"
+        android:gravity="center_vertical"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bItineraries"
+    android:text="@string/title_activity_itinerary"
+    android:gravity="center_vertical"
+    />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bSearch"
+    android:text="@string/button_search_flights"
+    android:gravity="right"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bEditClient"
+    android:text="@string/edit_client_info_homepage"
+    android:gravity="right"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bChangePassword"
+        android:text="@string/change_password"
+        android:gravity="right"/>
+
+</LinearLayout>
+
